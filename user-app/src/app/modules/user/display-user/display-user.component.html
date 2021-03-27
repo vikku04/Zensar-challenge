@@ -1,0 +1,26 @@
+<app-display-user-header></app-display-user-header>
+<div class="container-fluid home-position">
+  <div class="row mt-5 h-100">
+    <div class="col-12">
+      <div class="row h-100">
+        <div *ngFor="let user of userData">
+          <div class="col-12 p-1">
+            <div class="card card-homepage h-100">
+              <div class="card-header">
+                <div class="d-flex flex-row">
+                  <h3>{{user.name}}</h3>
+                </div>
+              </div>
+              <div class="card-body py-1">
+                <img [src]="user.Image" class="img-fluid">
+                <div class="d-flex flex-row">
+                  <h6>{{user.id}}</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

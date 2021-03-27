@@ -1,0 +1,59 @@
+.header-brand {
+  position: absolute;
+  left: 50%;
+  width: 700px;
+  margin-left: -400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h3 {
+    margin: 0;
+    padding: 0;
+    color: #121212;
+    font-size: 30px;
+    font-weight: 400;
+
+    span {
+      font-weight: 600;
+    }
+  }
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  color: rgba(73, 72, 72, 0.8);
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  background: #042C71;
+  color: #FFF;
+}
+
+.homepage-search {
+  border-radius: 21px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.09);
+  margin-left: 20px;
+
+}
+
+.home-user {
+  font-size: 30px;
+  color: #9B9797;
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+@media (max-width:768px) {
+  .collapse {
+    background: #FFF;
+    position: relative;
+    top: 8px;
+    width: 100%;
+  }
+
+  .font-weight {
+    display: none;
+  }
+}
